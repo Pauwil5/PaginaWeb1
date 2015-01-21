@@ -1,0 +1,89 @@
+html {
+	font-family: 'Oswald', sans-serif;
+	/*PREGUNTA*/
+}
+header {
+
+	border-bottom: 2px solid #000;
+	height: 8px;
+	margin-left: 0 auto;
+	margin-rigth: 0 auto;
+	opacity: 0.3;
+	padding: 70px 20px 60px 60px; /*PREGUNTA*/
+	position: relative;
+	width: 80%;
+}
+
+nav {
+	margin-left: 50px;
+	margin-right: 20px;
+
+}
+
+h1 {
+	display: inline-block;
+	float: left;
+	margin-left: 12px; 
+	margin-right: 12px;
+}
+h2 {
+	color: white;
+	display: inline-block;
+	width: 80px;
+	float: left;
+	margin-left: 8px; 
+	margin-right: 8px;
+}
+
+
+header ul a li{
+	background-color: #000;
+	border: 2px solid blue;
+	color: #2a3a4a ;
+	padding: 15px;
+}
+
+ul li a: hover{
+	color: #fff;
+	background-color: #000;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+ul a {
+	margin-left: 20px; 
+	margin-right: 20px;
+	float: left;
+}
+
+
+section{
+	clear: right;
+}
+article{
+	margin-left: 200px;
+	margin-right: 100px;
+}
+.container{
+	background-color: #2a6a8f;
+	border-radius:300px;
+	box-shadow: 3px 8px 4px blue; 
+	float: left;
+	margin-bottom: 15px;
+	padding: 25px;
+	text-align: justify;
+	width: 700px;
+}
+
+.top a{
+	text-decoration: none;
+}
+
+footer{
+	background-color: #1a3d70;
+	clear: both;
+	margin-top: 30px;
+	padding: 100px;
+}
+
+
