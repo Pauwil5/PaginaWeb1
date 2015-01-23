@@ -2,77 +2,81 @@ html {
 	font-family: 'Oswald', sans-serif;
 	/*PREGUNTA*/
 }
+
+body {
+
+	background-color: #3366FF;
+}
+
 header {
 
-	border-bottom: 2px solid #000;
+	border-bottom: 1px solid #9a9a9a;
 	height: 6px;
-	margin-left: 0 auto;
-	margin-rigth: 0 auto;
+	margin-left: 5 auto;
+	margin-rigth: 5 auto;
 	opacity: 0.3;
 	padding: 70px 20px 60px 60px; /*PREGUNTA*/
-	position: relative;
-	width: 80%;
+	position: inherit;
+	width: 800%;
 }
 
 nav {
-	margin-left: 50px;
-	margin-right: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
 
 }
 
 h1 {
+	color: #FFCCFF;
 	display: inline-block;
 	float: left;
-	margin-left: 12px; 
-	margin-right: 12px;
+	margin-left: 2px; 
+	margin-right: 2px;
 }
 h2 {
 	color: white;
 	display: inline-block;
-	width: 80px;
 	float: left;
 	margin-left: 8px; 
-	margin-right: 8px;
+	margin-right: 10px;
+	width: 8px;
 }
 
-
-header ul a li{
-	background-color: #000;
-	border: 2px solid blue;
-	color: #2a3a4a ;
+header ul a{
+	background-color: #66cc99;
+	border: 2px solid #339900;
+	color: #000 ;
 	padding: 15px;
 }
 
-ul li a: hover{
-	color: #fff;
-	background-color: #000;
+ul a {
+	background-color: #33ff00;
+	border-color: #330066;
+	border-radius: 200px;
+	color: #003300;
+	float: left;
 	margin-right: 5px;
 	margin-left: 5px;
-}
+	text-decoration: none;
 
-ul a {
-	margin-left: 20px; 
-	margin-right: 20px;
-	float: left;
 }
-
 
 section{
 	clear: right;
 }
 article{
-	margin-left: 200px;
-	margin-right: 100px;
+	margin-left: 2px;
+	margin-right: 10px;
 }
 .container{
-	background-color: #2a6a8f;
-	border-radius:300px;
-	box-shadow: 3px 8px 4px blue; 
+	background-color: #CC66FF;
+	border-radius:35px;
+	box-shadow: 1px 1px 1px blue; 
 	float: left;
-	margin-bottom: 15px;
-	padding: 25px;
+	margin-bottom: 500px;
+	padding: 8px;
 	text-align: justify;
-	width: 700px;
+	width: 100px;
 }
 
 .top a{
@@ -80,10 +84,10 @@ article{
 }
 
 footer{
-	background-color: #1a3d70;
+	background-color: #990033;
 	clear: both;
 	margin-top: 30px;
-	padding: 100px;
+	padding: 10px;
 }
 
 
